@@ -1,0 +1,114 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #0056b3;
+  text-align: center;
+}
+
+.video-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align card content to the left */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 1px;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align card body content to the left */
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 18px;
+  text-align: left; /* Align card text to the left */
+}
+
+.link-list {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align link-list content to the top */
+  align-items: flex-start; /* Align link-list items to the left */
+}
+
+
+/* Description styles */
+.video-link-description {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Equal height for video links */
+.video-link-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
+.video-link-container .video-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+.video-link {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center; /* Align link text to the left */
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+
+.video-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Adjust iframe size */
+#videoIframe {
+  width: 850px;
+  height: 600px; /* You can adjust the height as needed */
+  
+ 
+}
+
+
+.video-des {
+  height: 60px;
+  width: 200px;
+  overflow: hidden;
+}
